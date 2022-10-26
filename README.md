@@ -78,5 +78,4 @@ All data utilized was sourced [here](https://data.seattle.gov/Public-Safety/Terr
 | Sector                   | Sector of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.                                                                                                                                 |   |   |   |
 | Beat                     | Beat of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.                                                                                                                                   |   |   |   |
 
-
 ##EDA
