@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A (**Terry stop**) is a seizure under both state and federal law. A *Terry* stop is defined in policy as:
+A **_Terry stop_** is a seizure under both state and federal law. A _Terry_ stop is defined in policy as:
 
 
     A brief, minimally intrusive seizure of a subject based upon articulable reasonable
@@ -10,7 +10,7 @@ A (**Terry stop**) is a seizure under both state and federal law. A *Terry* stop
     as well as to vehicles. The subject of a *Terry* stop is not free to leave.
         
         
-(**Reasonable suspicion**) requires:
+**_Reasonable suspicion_** requires:
 
 
     Specific, objective, articulable facts which, taken together with rational inferences, would
@@ -18,11 +18,11 @@ A (**Terry stop**) is a seizure under both state and federal law. A *Terry* stop
     engaged, is engaging or is about to engage in criminal conduct.
     
     
-The reasonableness of the *Terry* stop is considered in view of the totality of the circumstances,
+The reasonableness of the _Terry_ stop is considered in view of the totality of the circumstances,
 the officer’s training and experience, and what the officer knew before the stop. Information
 learned during a stop can lead to additional reasonable suspicion or probable cause that a crime
 has occurred, but cannot provide the justification for the original stop.
-An officer may (**frisk**), or pat-down, the subject of a *Terry* stop when, under the totality of the
+An officer may **_frisk_**, or pat-down, the subject of a *Terry* stop when, under the totality of the
 circumstances and reasonable conclusions drawn from the officer’s training and experience, the
 officer has reasonable suspicion that the subject may be armed and presently dangerous. A frisk
 is strictly limited to a search (generally a pat-down of outer clothing) necessary to the discovery
@@ -32,13 +32,13 @@ All data utilized was sourced [here](https://data.seattle.gov/Public-Safety/Terr
 
 ## Table of contents
 
-- [Objectives and Steps](##Objectives)
-- [Data Understanding](##Data Understanding)
+- [Objectives and Steps](#objectives)
+- [Data Understanding](#data understanding)
     
-- [EDA](##EDA)
-    - [Univariate Analysis](##Univariate Analysis)
-    - [Bivariate Analysis](##Bivariate Analysis)
-    - [Outliers](#Outliers)
+- [EDA](##eda)
+    - [Univariate Analysis](#univariate analysis)
+    - [Bivariate Analysis](#bivariate analysis)
+    - [Outliers](#outliers)
 - [Model Analysis, RFC](#modeling)	
     - [Vanilla](#vanilla)
     - [Final](#final)
@@ -78,4 +78,56 @@ All data utilized was sourced [here](https://data.seattle.gov/Public-Safety/Terr
 | Sector                   | Sector of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.                                                                                                                                 |
 | Beat                     | Beat of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.                                                                                                                                   |
 
-##EDA
+
+
+## EDA
+### Univariate Analysis
+#### Subject Age Distribution
+< img src = "images/subject_age_distribution.png" >
+
+
+Majority of the subjects are aged between 26-35 years.
+
+
+#### Weapon Type Distribution
+< img src = "images/weapon_type_distribution.png" >
+
+Most subjects were found not to have weapons of any type either non-firearms(Club, Blackjack, Brass Knuckles, Mace/Pepper Spray, Knife/Cutting/Stabbing Instrument,Taser/Stun Gun) or firearms(handgun,automatic handgun,shotgun,rifle,incendiary Device).
+
+
+#### Reported Month Distribution
+< img src = "images/reported_month_distribution.png" >
+
+
+Majority of reports take place during the second quarter of the year (May, June, July, August).
+
+
+#### Reported Time Distribution
+< img src = "images/reported_time_distribution.png" >
+
+
+The difference in reports during daytime and nightime is marginal with majority reports during nightime.
+
+
+#### Stop Resolution
+< img src = "images/reported_time_distribution.png" >
+
+
+In most cases no offence was reported nor was an arrest made.
+
+
+#### Arrest Flag
+< img src = "images/arrest_flag_distribution.png" >
+
+
+No arrests were made during the majority of **_Terry stops_**
+
+
+#### Frisk Flag Distribution
+< img src = "images/frisk_flag_distribution.png" >
+
+
+Most subjects were not frisked.
+
+
+#### Officer Age Distribution
