@@ -131,3 +131,20 @@ Most subjects were not frisked.
 
 
 #### Officer Age Distribution
+< img src = "images/officer_age_distribution.png" >
+
+
+Most officers are aged between 26 and 31 years of age.
+
+
+### Bivariate Analysis
+#### Distribution of Arrest Flag and Oficer Age
+< img src = "images/arrest_flag_and_officer_age_distribution.png" >
+
+Officers aged between 28 and 32 tend to issue more arrest flags.
+
+
+#### Weapon Type by Subject Age Group
+< img src = "images/weapon_type_by_subject_group_distribution.png" >
+
+Subjects aged between 26 - 35 bear majority arms.
