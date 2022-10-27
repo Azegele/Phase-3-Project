@@ -116,7 +116,7 @@ The difference in reports during daytime and nightime is marginal with majority 
 
 
 #### Stop Resolution
-< img src = "images/reported_time_distribution.png" >
+< img src = "images/stop_resolution_distribution.png" >
 
 
 In most cases no offence was reported nor was an arrest made.
