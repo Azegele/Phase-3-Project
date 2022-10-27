@@ -255,7 +255,3 @@ which makes it typically more effective when compared with single-model results 
         3. Look into data for police reported stops in other regions for comparison
         4. Collect and analyze data on those arrested and eventually found guilty in court
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
