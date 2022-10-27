@@ -1,10 +1,20 @@
 # Terry Stops Data Science Project (Classification Project)
 Authors:
 [Nahum odemba](https://github.com/Nahum77)
+
+
 [Jeremy Nguyo](https://github.com/NguyoJer)
+
+
 [Monicah Okodoi](https://github.com/Okodoimonicah)
+
+
 [Majorie Opiyo](https://github.com/Opiyow)
+
+
 [Betty Bett](https://github.com/BettyBett)
+
+
 [Bradley Azegele](https://github.com/Azegele)
 
 
