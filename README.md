@@ -33,13 +33,13 @@ All data utilized was sourced [here](https://data.seattle.gov/Public-Safety/Terr
 ## Table of contents
 
 - [Objectives and Steps](#objectives)
-- [Data Understanding](#data understanding)
+- [Data Understanding](#data-understanding)
     
-- [EDA](##eda)
-    - [Univariate Analysis](#univariate analysis)
-    - [Bivariate Analysis](#bivariate analysis)
+- [EDA](#eda)
+    - [Univariate Analysis](#univariate-analysis)
+    - [Bivariate Analysis](#bivariate-analysis)
     - [Outliers](#outliers)
-- [Model Analysis, RFC](#modeling)	
+- [Model Analysis](#modeling)	
     - [Vanilla](#vanilla)
     - [Final](#final)
 - [Recommendations](#recommendations)
@@ -52,6 +52,8 @@ All data utilized was sourced [here](https://data.seattle.gov/Public-Safety/Terr
 
 
 ## Data Understanding
+
+
 | **Column**               | **Description**                                                                                                                                                                                                                                                          |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Subject Age Group        | Subject Age Group (10 year increments) as reported by the officer.                                                                                                                                                                                                       |
@@ -137,6 +139,17 @@ Most subjects were not frisked.
 Most officers are aged between 26 and 31 years of age.
 
 
+#### Subject Perceived Race Distribution
+< img src = "images/subject_perceived_race_distribution.png" >
+
+White and black subjects are the majority subject population.
+
+#### Officer Race Distribution
+< img src = "images/officer_race_distribution.png" >
+
+Most officers are of white ethnicity.
+
+
 ### Bivariate Analysis
 #### Distribution of Arrest Flag and Oficer Age
 < img src = "images/arrest_flag_and_officer_age_distribution.png" >
@@ -148,3 +161,21 @@ Officers aged between 28 and 32 tend to issue more arrest flags.
 < img src = "images/weapon_type_by_subject_group_distribution.png" >
 
 Subjects aged between 26 - 35 bear majority arms.
+
+
+### Outliers
+< img src = "images/officer_age_boxplot.png" >
+
+
+Full retirement age in Seattle is 65 as per [this article](https://www.drs.wa.gov/plan/pers2/). 
+Anyone aged above 65 is considered an outlier.
+
+
+## Modeling
+### Model Preprocessing
+    * Converting target variable to binary.
+    * Splitting the dataset into training and testing data.
+    * SMOTE analysis to deal with class imbalance.
+    * One Hot encoding of categorical data.
+### Baseline Model
+
