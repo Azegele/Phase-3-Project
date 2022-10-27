@@ -107,7 +107,7 @@ Majority of the subjects are aged between 26-35 years.
 
 
 #### Weapon Type Distribution
-< img src = "images/weapon_type_distribution.png" >
+![weapon_type_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/weapon_type_distribution.png)
 
 Most subjects were found not to have weapons of any type either non-firearms
 (Club, Blackjack, Brass Knuckles, Mace/Pepper Spray, Knife/Cutting/Stabbing 
@@ -115,7 +115,7 @@ Instrument,Taser/Stun Gun) or firearms(handgun,automatic handgun,shotgun,rifle,i
 
 
 #### Reported Month Distribution
-< img src = "images/reported_month_distribution.png" >
+![reported_month_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/reported_month_distribution.png)
 
 
 Majority of reports take place during the second quarter of the year 
@@ -123,28 +123,28 @@ Majority of reports take place during the second quarter of the year
 
 
 #### Reported Time Distribution
-< img src = "images/reported_time_distribution.png" >
+![reported_time_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/reported_time_distribution.png)
 
 
 The difference in reports during daytime and nightime is marginal with majority reports during nightime.
 
 
 #### Stop Resolution
-< img src = "images/stop_resolution_distribution.png" >
+![stop_resolution_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/stop_resolution_distribution.png)
 
 
 In most cases no offence was reported nor was an arrest made.
 
 
 #### Arrest Flag
-< img src = "images/arrest_flag_distribution.png" >
+![arrest_flag_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/arrest_flag_distribution.png)
 
 
 No arrests were made during the majority of **_Terry stops_**
 
 
 #### Frisk Flag Distribution
-< img src = "images/frisk_flag_distribution.png" >
+![frisk_flag_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/frisk_flag_distribution.png)
 
 
 Most subjects were not frisked.
@@ -152,7 +152,7 @@ Most subjects were not frisked.
 
 
 #### Officer Age Distribution
-< img src = "images/officer_age_distribution.png" >
+![officer_age_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/officer_age_distribution.png)
 
 
 Most officers are aged between 26 and 31 years of age.
@@ -160,54 +160,54 @@ Most officers are aged between 26 and 31 years of age.
 
 
 #### Subject Perceived Race Distribution
-< img src = "images/subject_perceived_race_distribution.png" >
+![subject_perceived_race_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/subject_perceived_race_distribution.png)
 
 White and black subjects are the majority subject population.
 
 
 #### Officer Race Distribution
-< img src = "images/officer_race_distribution.png" >
+![officer_race_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/officer_race_distribution.png)
 
 Most officers are of white ethnicity.
 
 
 #### Officer Race vs Stop Resolution Distribution
-< img src = "images/officer_race_vs_stop_resolution_distribution.png" >
+![officer_race_vs_stop_resolution_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/officer_age_vs_stop_resolution_distribution.png)
 
 
 ### Bivariate Analysis
 
 
 #### Distribution of Arrest Flag and Oficer Age
-< img src = "images/arrest_flag_and_officer_age_distribution.png" >
+![arrest_flag_and_officer_age_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/arrest_flag_and_officer_age_distribution.png)
 
 Officers aged between 28 and 32 tend to issue more arrest flags.
 
 
 
 #### Weapon Type by Subject Age Group
-< img src = "images/weapon_type_by_subject_group_distribution.png" >
+![weapon_type_by_subject_group_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/weapon_type_by_subject_group_distribution.png)
 
 Subjects aged between 26 - 35 bear majority arms.
 
 
 #### Officer Age vs Stop Resolution Distribution
-< img src = "images/officer_age_vs_stop_resolution_distribution.png" >
+![officer_age_vs_stop_resolution_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/officer_age_vs_stop_resolution_distribution.png)
 
 
 #### Subject Race vs Frisk Flag Distribution
-< img src = "images/subject_race_vs_frisk_flag_distribution.png" > 
+![subject_race_vs_frisk_flag_distribution.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/subject_race_vs_frisk_flag.png) 
 
 
 #### Subject Race vs Arrest Flag Distribution
-< img src = "images/subject_race_vs_arrest_flag.png" > 
+![subject_race_vs_arrest_flag.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/subject_race_vs_arrest_flag.png) 
 
 
 #### Frisk Flag by Arrest Flag Distribution
-< img src = "images/frisk_flag_by_arrest_flag.png" > 
+![frisk_flag_by_arrest_flag.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/frisk_flag_by_arrest_flag.png) 
 
 ### Outliers
-< img src = "images/officer_age_boxplot.png" >
+![officer_age_boxplot.png](https://github.com/Azegele/Phase-3-Project/blob/main/images/officer_age_boxplot.png)
 
 
 Full retirement age in Seattle is 65 as per [this article](https://www.drs.wa.gov/plan/pers2/). 
