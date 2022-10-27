@@ -173,9 +173,28 @@ Anyone aged above 65 is considered an outlier.
 
 ## Modeling
 ### Model Preprocessing
-    * Converting target variable to binary.
-    * Splitting the dataset into training and testing data.
-    * SMOTE analysis to deal with class imbalance.
-    * One Hot encoding of categorical data.
+    1. Converting target variable to binary.
+    2. Splitting the dataset into training and testing data.
+    3. SMOTE analysis to deal with class imbalance.
+    4. One Hot encoding of categorical data.
 ### Baseline Model
+A random forest model was chosen as it uses more than one model to make a prediction which makes it typically more effective when compared with single-model results for supervised learning tasks.
+
+
+### Findings
+        1. Factors that highly influence a Terry Stop arrests Reported Year Reported Month Subject Age Group Weapon Type Reported Time
+        2. Factors that highly result to a person being stoped, frisked, and arrested after a Terry Stop? When we look at the data for frisks, we see that              the focus is really on just two precincts: the East and South. The number of frisks during Terry stops increased in only those two precincts,              and the likelihood that a stop would lead to a frisk also increased in those same two places
+        3. Whether Terry Stops are biased towards minority groups. Overall, the data skews heavily male, and is almost entirely two racial groups:                      blacks/African Americans and whites. Blacks continue to be over-represented in the Terry stops data compared to their representation in the                entire population of Seattle.
+
+
+### Recommendations
+        1. Combined Law Enforcement and Community Policing Members of the community join police officers and observe the officers' activities while                     working their Beat.This can lead to an increase in public trust, a better understanding of the people in their jurisdiction, as well as                   educate people about why certain policies are in place.
+        2. In determining whether probable cause exists, courts more readily accept the judgment of a law enforcement officer if it is backed by evidence               of a crime/weapon possession.
+
+
+### Future Work
+        1. The dataset contained a lot of NaN or incomplete information. Collect more data that adds more context o the nature of stops
+        2. Audit record system and reduce redundant columns to reduce noise
+        3. Look into data for police reported stops in other regions for comparison
+        4. Collect and analyze data on those arrested and eventually found guilty in court
 
