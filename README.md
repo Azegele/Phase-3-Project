@@ -1,4 +1,12 @@
-# Terry Traffic Stops
+# Terry Stops Data Science Project (Classification Project)
+Authors:
+[Nahum odemba](https://github.com/Nahum77)
+[Jeremy Nguyo](https://github.com/NguyoJer)
+[Monicah Okodoi](https://github.com/Okodoimonicah)
+[Majorie Opiyo](https://github.com/Opiyow)
+[Betty Bett](https://github.com/BettyBett)
+[Bradley Azegele](https://github.com/Azegele)
+
 
 ## Introduction
 
@@ -136,6 +144,7 @@ No arrests were made during the majority of **_Terry stops_**
 Most subjects were not frisked.
 
 
+
 #### Officer Age Distribution
 < img src = "images/officer_age_distribution.png" >
 
@@ -143,10 +152,12 @@ Most subjects were not frisked.
 Most officers are aged between 26 and 31 years of age.
 
 
+
 #### Subject Perceived Race Distribution
 < img src = "images/subject_perceived_race_distribution.png" >
 
 White and black subjects are the majority subject population.
+
 
 #### Officer Race Distribution
 < img src = "images/officer_race_distribution.png" >
@@ -154,11 +165,18 @@ White and black subjects are the majority subject population.
 Most officers are of white ethnicity.
 
 
+#### Officer Race vs Stop Resolution Distribution
+< img src = "images/officer_race_vs_stop_resolution_distribution.png" >
+
+
 ### Bivariate Analysis
+
+
 #### Distribution of Arrest Flag and Oficer Age
 < img src = "images/arrest_flag_and_officer_age_distribution.png" >
 
 Officers aged between 28 and 32 tend to issue more arrest flags.
+
 
 
 #### Weapon Type by Subject Age Group
@@ -166,6 +184,21 @@ Officers aged between 28 and 32 tend to issue more arrest flags.
 
 Subjects aged between 26 - 35 bear majority arms.
 
+
+#### Officer Age vs Stop Resolution Distribution
+< img src = "images/officer_age_vs_stop_resolution_distribution.png" >
+
+
+#### Subject Race vs Frisk Flag Distribution
+< img src = "images/subject_race_vs_frisk_flag_distribution.png" > 
+
+
+#### Subject Race vs Arrest Flag Distribution
+< img src = "images/subject_race_vs_arrest_flag.png" > 
+
+
+#### Frisk Flag by Arrest Flag Distribution
+< img src = "images/frisk_flag_by_arrest_flag.png" > 
 
 ### Outliers
 < img src = "images/officer_age_boxplot.png" >
