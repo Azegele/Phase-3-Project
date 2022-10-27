@@ -40,9 +40,10 @@ All data utilized was sourced [here](https://data.seattle.gov/Public-Safety/Terr
     - [Bivariate Analysis](#bivariate-analysis)
     - [Outliers](#outliers)
 - [Model Analysis](#modeling)	
-    - [Vanilla](#vanilla)
-    - [Final](#final)
+    - [Baseline Model](#baseline-model)
+    - [Findings](#findings)
 - [Recommendations](#recommendations)
+- [Future Work](#future-work)
 
 
 ## Objectives
@@ -94,14 +95,17 @@ Majority of the subjects are aged between 26-35 years.
 #### Weapon Type Distribution
 < img src = "images/weapon_type_distribution.png" >
 
-Most subjects were found not to have weapons of any type either non-firearms(Club, Blackjack, Brass Knuckles, Mace/Pepper Spray, Knife/Cutting/Stabbing Instrument,Taser/Stun Gun) or firearms(handgun,automatic handgun,shotgun,rifle,incendiary Device).
+Most subjects were found not to have weapons of any type either non-firearms
+(Club, Blackjack, Brass Knuckles, Mace/Pepper Spray, Knife/Cutting/Stabbing 
+Instrument,Taser/Stun Gun) or firearms(handgun,automatic handgun,shotgun,rifle,incendiary Device).
 
 
 #### Reported Month Distribution
 < img src = "images/reported_month_distribution.png" >
 
 
-Majority of reports take place during the second quarter of the year (May, June, July, August).
+Majority of reports take place during the second quarter of the year 
+(May, June, July, August).
 
 
 #### Reported Time Distribution
@@ -178,22 +182,36 @@ Anyone aged above 65 is considered an outlier.
     3. SMOTE analysis to deal with class imbalance.
     4. One Hot encoding of categorical data.
 ### Baseline Model
-A random forest model was chosen as it uses more than one model to make a prediction which makes it typically more effective when compared with single-model results for supervised learning tasks.
+A random forest model was chosen as it uses more than one model to make a prediction
+which makes it typically more effective when compared with single-model results for supervised learning tasks.
 
 
 ### Findings
-        1. Factors that highly influence a Terry Stop arrests Reported Year Reported Month Subject Age Group Weapon Type Reported Time
-        2. Factors that highly result to a person being stoped, frisked, and arrested after a Terry Stop? When we look at the data for frisks, we see that              the focus is really on just two precincts: the East and South. The number of frisks during Terry stops increased in only those two precincts,              and the likelihood that a stop would lead to a frisk also increased in those same two places
-        3. Whether Terry Stops are biased towards minority groups. Overall, the data skews heavily male, and is almost entirely two racial groups:                      blacks/African Americans and whites. Blacks continue to be over-represented in the Terry stops data compared to their representation in the                entire population of Seattle.
+        1. Factors that highly influence a Terry Stop arrests Reported Year Reported 
+            Month Subject Age Group Weapon Type Reported Time
+        2. Factors that highly result to a person being stoped, frisked, and arrested 
+            after a Terry Stop? When we look at the data for frisks, we see that             
+            the focus is really on just two precincts: the East and South. The number of frisks 
+            during Terry stops increased in only those two precincts, and the likelihood that 
+            a stop would lead to a frisk also increased in those same two places
+        3. Whether Terry Stops are biased towards minority groups. Overall, the data skews 
+            heavily male, and is almost entirely two racial groups: blacks/African Americans 
+            and whites. Blacks continue to be over-represented in the Terry stops data compared 
+            to their representation in the entire population of Seattle.
 
 
 ### Recommendations
-        1. Combined Law Enforcement and Community Policing Members of the community join police officers and observe the officers' activities while                     working their Beat.This can lead to an increase in public trust, a better understanding of the people in their jurisdiction, as well as                   educate people about why certain policies are in place.
-        2. In determining whether probable cause exists, courts more readily accept the judgment of a law enforcement officer if it is backed by evidence               of a crime/weapon possession.
+        1. Combined Law Enforcement and Community Policing Members of the community join police 
+            officers and observe the officers' activities while working their Beat.This can lead to 
+            an increase in public trust, a better understanding of the people in their jurisdiction, 
+            as well as educate people about why certain policies are in place.
+        2. In determining whether probable cause exists, courts more readily accept the judgment 
+            of a law enforcement officer if it is backed by evidence of a crime/weapon possession.
 
 
 ### Future Work
-        1. The dataset contained a lot of NaN or incomplete information. Collect more data that adds more context o the nature of stops
+        1. The dataset contained a lot of NaN or incomplete information. Collect more data that adds
+           more context o the nature of stops
         2. Audit record system and reduce redundant columns to reduce noise
         3. Look into data for police reported stops in other regions for comparison
         4. Collect and analyze data on those arrested and eventually found guilty in court
